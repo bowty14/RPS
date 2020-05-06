@@ -1,10 +1,10 @@
 require ('rspec')
 require ('rock')
 
-describe('RPS#playerscore') do
-  it("starts new game with player scores set to zero") do
+describe('#RPS') do
+  it("returns true if paper is player1_input and scissors is player2_input") do
     game = RPS.new()
-    expect(game.player2_score()).to(eq(0))
+    expect(game.wins?("rock")).to(eq(true))
   end
 end
 

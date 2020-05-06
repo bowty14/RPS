@@ -1,7 +1,7 @@
 require ('pry')
 class RPS 
   def initialize()
-  @player1_input
+  @player1_input 
   @player2_input
   end
 
